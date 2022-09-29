@@ -1,0 +1,9 @@
+body {background-color: #53FF97;}
+.titulo { color: #9C007B; font-size: x-large; text-align: center; text-decoration: underline; font-family: Georgia; }
+.copete {color; #222222; background-color: white; font-size: medium; text-align: center; outline-color: #222222; font-family: Georgia; width: 500px;}
+.subtitulo { color: #9C007B; font-size: large; text-align: center; text-decoration: underline; font-family: Georgia; }
+.texto {color: black; background-color: white; font-size: small; text-align:center; font-family: Georgia; width: 500px;}
+.foto {outline: 4px solid white; width: 500px; height: 354px;}
+.video {outline: 4px solid white; width: 500px;}
+.mapa {outline: 4px solid white; width: 500px;}
+.cuadro_de_texto {display: flex; justify-content: center;}
