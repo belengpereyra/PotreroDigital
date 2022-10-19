@@ -1,9 +1,16 @@
 body {background-color: #53FF97;}
 .titulo { color: #9C007B; font-size: x-large; text-align: center; text-decoration: underline; font-family: Georgia; }
-.copete {color; #222222; background-color: white; font-size: medium; text-align: center; outline-color: #222222; font-family: Georgia; width: 500px;}
-.subtitulo { color: #9C007B; font-size: large; text-align: center; text-decoration: underline; font-family: Georgia; }
-.texto {color: black; background-color: white; font-size: small; text-align:center; font-family: Georgia; width: 500px;}
-.foto {outline: 4px solid white; width: 500px; height: 354px;}
+.copete {color; #222222; font-size: medium; text-align: center; outline-color: #222222; font-family: Georgia; width: 900px;}
+.subtitulo {color: #9C007B; font-size: large; text-decoration: underline; font-family: Georgia; position:relative; left: 35px }
+.texto {color: black; background-color: white; font-size: small; text-align:justify; font-family: Georgia; width: 500px;}
+.foto {outline: 4px solid white;}
 .video {outline: 4px solid white; width: 500px;}
-.mapa {outline: 4px solid white; width: 500px;}
+.mapa {outline: 4px solid white; width: 400px; height: 400px}
 .cuadro_de_texto {display: flex; justify-content: center;}
+header {background-color: white; width: 1025px; position: relative; left: 150px}
+nav {position: relative; top: 15px; }
+section {background-color: white; position: relative; width: 600px; top: 30px; left: 150px}
+aside {width: 410px; position: absolute; top: 163px; left: 775px}
+footer {position: static;}
+.wpp {position: fixed; left: 1225px; top: 525px;}
+.linkreceta {background-color: white; font-family: Georgia; font-size: medium; color: black;}
