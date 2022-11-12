@@ -1,16 +1,22 @@
 body {background-color: #53FF97;}
-.titulo { color: #9C007B; font-size: x-large; text-align: center; text-decoration: underline; font-family: Georgia; }
-.copete {color; #222222; font-size: medium; text-align: center; outline-color: #222222; font-family: Georgia; width: 900px;}
-.subtitulo {color: #9C007B; font-size: large; text-decoration: underline; font-family: Georgia; position:relative; left: 35px }
-.texto {color: black; background-color: white; font-size: small; text-align:justify; font-family: Georgia; width: 500px;}
-.foto {outline: 4px solid white;}
-.video {outline: 4px solid white; width: 500px;}
-.mapa {outline: 4px solid white; width: 400px; height: 400px}
-.cuadro_de_texto {display: flex; justify-content: center;}
-header {background-color: white; width: 1025px; position: relative; left: 150px}
-nav {position: relative; top: 15px; }
-section {background-color: white; position: relative; width: 600px; top: 30px; left: 150px}
-aside {width: 410px; position: absolute; top: 163px; left: 775px}
-footer {position: static;}
-.wpp {position: fixed; left: 1225px; top: 525px;}
+header {background-color: white; height: 25vh; display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;}
+nav {display: flex; justify-content: space-between; background-color: purple;}
+main {display: flex; justify-content: center;}
+section {background-color: white; width: 70%; height: 50%;}
+aside {background-color: purple; width: 30%; height: 20%;}
+footer {display: flex; justify-content: space-around; align-items: center; height: 25vh; background-color: yellow; flex-wrap: wrap;}
+.logo {width: 33%; display: flex; justify-content: center;}
+.titulo {color: purple; font-size: xx-large; text-align: center; text-decoration: underline; font-family: Georgia;}
+.copete {color: white; font-family: Georgia; text-align: center; width: 30%;}
+.recetas {background-color: white; width: 70%; display: flex; align-items: center; justify-content: space-around;}
+.subtitulo {color: purple; font-size: large; text-decoration: underline; font-family: Georgia; left: 35px;}
+.texto {color: black; background-color: white; font-size: small; text-align:justify; font-family: Georgia;}
+.cuadro_de_texto {display: flex; justify-content: center; width: 75%; align-items: center;}
+.foto {width: 100%;}
+.video {width: 50%;}
+.mapa_mardel {width: 100%;}
 .linkreceta {background-color: white; font-family: Georgia; font-size: medium; color: black;}
+.mapa_monte_castro {background-color: purple; display: flex;}
+.redes_sociales {display: flex; justify-content: center; align-items: center;}
+.desarollado {display: flex;justify-content: center;}
+.info {display: flex; align-items: center; font-family: Georgia; text-align: center;}
